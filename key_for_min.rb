@@ -9,12 +9,12 @@ name_hash.collect do |name, value|
    #min = value
   if l == 0 || value < min
     min = value
-    e = name
+    e << name
      l+=1
 
 else
   return nil
   end
 end
-e
+e.join
 end
