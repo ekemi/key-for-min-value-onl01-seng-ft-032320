@@ -3,15 +3,15 @@
 
 def key_for_min_value(name_hash)
   e = []
-
+   min = 0
 name_hash.collect do |name, value|
-   min = value
-  if value <= min
+   #min = value
+  if value < min
     min = value
     name
 
   end
-  e
+  #e
 end
-#e
+e
 end
