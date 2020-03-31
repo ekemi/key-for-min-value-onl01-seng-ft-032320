@@ -9,11 +9,11 @@ name_hash.each do |name, value|
 
   if index == 0 || value < min
     min = value
-    e = name
+    empty = name
     index +=1
 elsif name_hash.empty?
      return nil
   end
 end
-e
+empty
 end
