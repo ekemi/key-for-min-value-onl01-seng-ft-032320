@@ -9,7 +9,7 @@ name_hash.collect do |name, value|
    #min = value
   if l == 0 || value < min
     min = value
-    e << name
+    e = name
 
   end
 end
