@@ -11,6 +11,9 @@ name_hash.collect do |name, value|
     min = value
     e = name
      l+=1
+
+else 
+  return nil     
   end
 end
 e
