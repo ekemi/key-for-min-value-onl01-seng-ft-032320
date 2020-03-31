@@ -16,5 +16,5 @@ else
   return nil
   end
 end
-e.join
+e
 end
