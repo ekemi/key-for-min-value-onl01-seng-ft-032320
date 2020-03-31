@@ -12,8 +12,8 @@ name_hash.collect do |name, value|
     e = name
      l+=1
 
-else 
-  return nil     
+else
+  return nil
   end
 end
 e
