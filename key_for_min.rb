@@ -11,10 +11,10 @@ name_hash.collect do |name, value|
     min = value
     e = name
      l+=1
-
+     e
 elsif name_hash.empty?
      return nil
   end
 end
-e
+#e
 end
